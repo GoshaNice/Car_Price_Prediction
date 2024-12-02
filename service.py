@@ -15,7 +15,6 @@ with open("models.pkl", "rb") as file:
 class Item(BaseModel):
     name: str
     year: int
-    selling_price: int
     km_driven: int
     fuel: str
     seller_type: str
